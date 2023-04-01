@@ -1,38 +1,92 @@
-.App {
+body {
   text-align: center;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  justify-content: space-around;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  width: 92vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  padding: 10px;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 0 0 20px 4px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.head{
+  color: rgb(90, 90, 90);
+}
+.fl{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.top{
+  width: 50%;
+  text-align: left;
+  word-wrap: break-word;
+}
+.sem{
+  width: 90%;
+  box-shadow: 0 0 40px 1px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 20px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.sub{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.prog{
+  height: 20px;
+  border-radius: 7px;
+  background-color: rgb(156, 156, 156);
+  width: 300px;
+}
+.progval{
+  background: black;
+  border-radius: 7px;
+  height: 100%;
+  width: 0;
+}
+.marks{
+  margin-left:1.5rem ;
+  width:30px;
+}
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width:855px){
+  .fl{
+    flex-direction: column;
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .top,.cont{
+    width: 100%;
+  }
+  .App{
+    width: 86vw;
+  }
+  .sem{
+    width: 98%;
   }
 }
