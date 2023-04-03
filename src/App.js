@@ -15,7 +15,7 @@ function App(props) {
     if(b.length==0)
     return;
     const p=b[0].slice();
-    fetch("http://localhost:8000/3").then((j)=>j.json()).then((j)=>{
+    fetch("https://feedback-server-oj2d.onrender.com/3").then((j)=>j.json()).then((j)=>{
     j.forEach((e)=>{for(let i=0;i<b[0].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
     for(let i=0;i<p.length;i++)if(j.length>0)
@@ -27,7 +27,7 @@ function App(props) {
     if(a1.length==0)
     return;
     const p=b[1].slice();
-    fetch("http://localhost:8000/4").then((j)=>j.json()).then((j)=>{
+    fetch("https://feedback-server-oj2d.onrender.com/4").then((j)=>j.json()).then((j)=>{
     j.forEach((e)=>{for(let i=0;i<b[0].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
     for(let i=0;i<p.length;i++)if(j.length>0)
@@ -39,7 +39,7 @@ function App(props) {
     if(a2.length==0)
     return;
     const p=b[2].slice();
-    fetch("http://localhost:8000/5").then((j)=>j.json()).then((j)=>{
+    fetch("https://feedback-server-oj2d.onrender.com/5").then((j)=>j.json()).then((j)=>{
     j.forEach((e)=>{for(let i=0;i<b[0].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
     for(let i=0;i<p.length;i++)if(j.length>0)
@@ -51,7 +51,7 @@ function App(props) {
     if(a3.length==0)
     return;
     const p=b[3].slice();
-    fetch("http://localhost:8000/6").then((j)=>j.json()).then((j)=>{
+    fetch("https://feedback-server-oj2d.onrender.com/6").then((j)=>j.json()).then((j)=>{
     j.forEach((e)=>{for(let i=0;i<b[0].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
     for(let i=0;i<p.length;i++)if(j.length>0)
@@ -63,7 +63,7 @@ function App(props) {
     if(a4.length==0)
     return;
     const p=b[4].slice();
-    fetch("http://localhost:8000/7").then((j)=>j.json()).then((j)=>{
+    fetch("https://feedback-server-oj2d.onrender.com/7").then((j)=>j.json()).then((j)=>{
     j.forEach((e)=>{for(let i=0;i<b[0].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
     for(let i=0;i<p.length;i++)if(j.length>0)
@@ -71,7 +71,7 @@ function App(props) {
     seta5(p)})
   },[a4]);
 
-  useEffect(()=>{fetch("http://localhost:8000/questions").then((j)=>j.json()).then((j)=>setn(j[0].qu[2]))},[]);
+  useEffect(()=>{fetch("https://feedback-server-oj2d.onrender.com/questions").then((j)=>j.json()).then((j)=>setn(j[0].qu[2]))},[]);
 
   useEffect(()=>{
     if(n.length==0)
