@@ -40,9 +40,8 @@ function App(props) {
     return;
     const p=b[2].slice();
     fetch("https://feedback-server-oj2d.onrender.com/5").then((j)=>j.json()).then((j)=>{
-    j.forEach((e)=>{console.log(e);for(let i=0;i<b[2].length;i++){p[i][0]+=e.post[i][0];
+    j.forEach((e)=>{for(let i=0;i<b[2].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
-      console.log("hi");
     for(let i=0;i<p.length;i++)if(j.length>0)
     {p[i][0]/=j.length;p[i][1]/=j.length;p[i][2]/=j.length;p[i][3]/=j.length;}
     seta3(p);
