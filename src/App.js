@@ -93,13 +93,13 @@ function App(props) {
         <div className='sub'>
         <h2 className='subject'>{n[0][i]}</h2>
         <div className='fl'><h3 className='top'>PLANNING AND ORGANISATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{e[0]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{(e[0]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>PREPARATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{e[1]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{(e[1]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>STUDENT'S PARTICIPATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{e[2]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{(e[2]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>CLASS MANAGEMENT/ASSESSMENT OF STUDENTS</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{e[3]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{(e[3]/4).toFixed(2)}/5</h3></div></div>
         </div>)}
       </div>
       <div className='sem'>
@@ -109,13 +109,13 @@ function App(props) {
         <div className='sub'>
         <h2 className='subject'>{n[1][i]}</h2>
         <div className='fl'><h3 className='top'>PLANNING AND ORGANISATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{e[0]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{(e[0]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>PREPARATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{e[1]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{(e[1]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>STUDENT'S PARTICIPATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{e[2]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{(e[2]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>CLASS MANAGEMENT/ASSESSMENT OF STUDENTS</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{e[3]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{(e[3]/4).toFixed(2)}/5</h3></div></div>
         </div>)}
       </div>
       <div className='sem'>
@@ -125,13 +125,13 @@ function App(props) {
         <div className='sub'>
         <h2 className='subject'>{n[2][i]}</h2>
         <div className='fl'><h3 className='top'>PLANNING AND ORGANISATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{e[0]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{(e[0]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>PREPARATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{e[1]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{(e[1]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>STUDENT'S PARTICIPATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{e[2]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{(e[2]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>CLASS MANAGEMENT/ASSESSMENT OF STUDENTS</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{e[3]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{(e[3]/4).toFixed(2)}/5</h3></div></div>
         </div>)}
       </div>
       <div className='sem'>
@@ -141,13 +141,13 @@ function App(props) {
         <div className='sub'>
         <h2 className='subject'>{n[3][i]}</h2>
         <div className='fl'><h3 className='top'>PLANNING AND ORGANISATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{e[0]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{(e[0]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>PREPARATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{e[1]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{(e[1]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>STUDENT'S PARTICIPATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{e[2]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{(e[2]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>CLASS MANAGEMENT/ASSESSMENT OF STUDENTS</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{e[3]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{(e[3]/4).toFixed(2)}/5</h3></div></div>
         </div>)}
       </div>
       <div className='sem'>
@@ -157,13 +157,13 @@ function App(props) {
         <div className='sub'>
         <h2 className='subject'>{n[4][i]}</h2>
         <div className='fl'><h3 className='top'>PLANNING AND ORGANISATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{e[0]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[0]*5+"%"}}/></div><h3 className="marks">{(e[0]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>PREPARATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{e[1]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[1]*5+"%"}}/></div><h3 className="marks">{(e[1]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>STUDENT'S PARTICIPATION</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{e[2]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[2]*5+"%"}}/></div><h3 className="marks">{(e[2]/4).toFixed(2)}/5</h3></div></div>
         <div className='fl'><h3 className='top'>CLASS MANAGEMENT/ASSESSMENT OF STUDENTS</h3>
-        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{e[3]/4}/5</h3></div></div>
+        <div className="cont"><div className='prog'><div className='progval' style={{"width":e[3]*5+"%"}}/></div><h3 className="marks">{(e[3]/4).toFixed(2)}/5</h3></div></div>
         </div>)}
       </div>
     </div>
