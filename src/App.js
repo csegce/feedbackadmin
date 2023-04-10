@@ -12,7 +12,6 @@ function App(props) {
   const [b,setb]=useState([]);
 
   useEffect(()=>{
-    console.log(b);
     if(b.length==0)
     return;
     const p=b[0].slice();
@@ -37,12 +36,11 @@ function App(props) {
   })},[a1])
 
   useEffect(()=>{
+    console.log(a2+" "+a2.length)
     if(a2.length==0)
     return;
     const p=b[2].slice();
-    console.log(p);
     fetch("https://feedback-server-oj2d.onrender.com/5").then((j)=>j.json()).then((j)=>{
-      console.log(j);
     j.forEach((e)=>{for(let i=0;i<b[2].length;i++){p[i][0]+=e.post[i][0];
     p[i][1]+=e.post[i][1];p[i][2]+=e.post[i][2];p[i][3]+=e.post[i][3];}});
       console.log("hi");
