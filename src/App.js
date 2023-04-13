@@ -87,7 +87,7 @@ function App(props) {
     <div className="App">
       <h1>GCE SALEM CSE FEEDBACK STAT</h1>
       <div className='sem'>
-        <h1 className='head'>Sem lll</h1>
+        <h1 className='head'>THIRD SEMESTER FEEDBACK REPORT</h1>
         {
         a1.map((e,i)=>
         <div className='sub'>
@@ -103,7 +103,7 @@ function App(props) {
         </div>)}
       </div>
       <div className='sem'>
-        <h1 className='head'>Sem lV</h1>
+        <h1 className='head'>FOURTH SEMESTER FEEDBACK REPORT</h1>
         {
         a2.map((e,i)=>
         <div className='sub'>
@@ -119,7 +119,7 @@ function App(props) {
         </div>)}
       </div>
       <div className='sem'>
-        <h1 className='head'>Sem V</h1>
+        <h1 className='head'>FIFTH SEMESTER FEEDBACK REPORT</h1>
         {
         a3.map((e,i)=>
         <div className='sub'>
@@ -135,7 +135,7 @@ function App(props) {
         </div>)}
       </div>
       <div className='sem'>
-        <h1 className='head'>Sem Vl</h1>
+        <h1 className='head'>SIXTH SEMESTER FEEDBACK REPORT</h1>
         {
         a4.map((e,i)=>
         <div className='sub'>
@@ -151,7 +151,7 @@ function App(props) {
         </div>)}
       </div>
       <div className='sem'>
-        <h1 className='head'>Sem Vll</h1>
+        <h1 className='head'>SEVENTH SEMESTER FEEDBACK REPORT</h1>
         {
         a5.map((e,i)=>
         <div className='sub'>
